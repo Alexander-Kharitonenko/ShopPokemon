@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace EntityForDatabase.Migrations
 {
-    [DbContext(typeof(DbContextShopPakemon))]
+    [DbContext(typeof(DbContextShopPokemon))]
     partial class DbContextShopPakemonModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

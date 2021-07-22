@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace EntityForDatabase.Migrations
 {
-    [DbContext(typeof(DbContextShopPakemon))]
+    [DbContext(typeof(DbContextShopPokemon))]
     [Migration("20210722053408_intNumberEmail")]
     partial class intNumberEmail
     {

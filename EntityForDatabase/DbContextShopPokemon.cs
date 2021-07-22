@@ -4,9 +4,9 @@ using System;
 
 namespace EntityForDatabase
 {
-    public class DbContextShopPakemon : DbContext
+    public class DbContextShopPokemon : DbContext
     {
-        public DbContextShopPakemon(DbContextOptions<DbContextShopPakemon> options) : base(options) 
+        public DbContextShopPokemon(DbContextOptions<DbContextShopPokemon> options) : base(options) 
         {
 
         }

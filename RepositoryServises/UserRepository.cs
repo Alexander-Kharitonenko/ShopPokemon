@@ -12,7 +12,7 @@ namespace RepositoryServises
 {
    public class UserRepository : Repository<User> 
     {
-        public UserRepository(DbContextShopPakemon dbContext) : base(dbContext)
+        public UserRepository(DbContextShopPokemon dbContext) : base(dbContext)
         {
 
         }  

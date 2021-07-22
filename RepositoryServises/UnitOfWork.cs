@@ -12,10 +12,10 @@ namespace RepositoryServises
     public class UnitOfWork : IDisposable, IUnitOfWork
     {
 
-        protected DbContextShopPakemon DbContext;
+        protected DbContextShopPokemon DbContext;
         private readonly IRepository<User> _User;
 
-        public UnitOfWork(IRepository<User> user, DbContextShopPakemon dbContext)
+        public UnitOfWork(IRepository<User> user, DbContextShopPokemon dbContext)
         {
             DbContext = dbContext;
             _User = user;

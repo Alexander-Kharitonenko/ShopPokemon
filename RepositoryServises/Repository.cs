@@ -13,10 +13,10 @@ namespace RepositoryServises
     public class Repository<T> : IRepository<T> where T : class, IBaseEntity
     {
 
-        protected readonly DbContextShopPakemon DbContext;
+        protected readonly DbContextShopPokemon DbContext;
         protected readonly DbSet<T> Table;
 
-        public Repository(DbContextShopPakemon dbContext ) 
+        public Repository(DbContextShopPokemon dbContext ) 
         {
             DbContext = dbContext;
             Table = DbContext.Set<T>();

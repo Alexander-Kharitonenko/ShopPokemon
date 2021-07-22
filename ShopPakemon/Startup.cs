@@ -33,7 +33,7 @@ namespace ShopPakemon
         
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<DbContextShopPakemon>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<DbContextShopPokemon>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddMvc();
             services.AddControllersWithViews();
 

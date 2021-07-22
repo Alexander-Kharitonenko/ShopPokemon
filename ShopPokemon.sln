@@ -3,23 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopPakemon", "ShopPakemon\ShopPakemon.csproj", "{95DCF3CF-FCAF-4DBD-9FE4-928447DCA15F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopPokemon", "ShopPakemon\ShopPokemon.csproj", "{95DCF3CF-FCAF-4DBD-9FE4-928447DCA15F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{A80A3D6B-55F8-4193-8549-89EB30F07D05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityForDatabase", "EntityForDatabase\EntityForDatabase.csproj", "{F33CF2F1-1EAE-4002-BD3B-6DFEC14A12F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityForDatabase", "EntityForDatabase\EntityForDatabase.csproj", "{F33CF2F1-1EAE-4002-BD3B-6DFEC14A12F9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EntityDTO", "EntityDTO", "{6BE849BA-D96D-4074-B238-E120CADDDB9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "DTO\DTO.csproj", "{D29D014E-8BE1-4CF6-8BF3-56F370F58AA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DTO", "DTO\DTO.csproj", "{D29D014E-8BE1-4CF6-8BF3-56F370F58AA1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InterfaceForRepository", "InterfaceForRepository", "{7951BEDA-8FC2-4DF1-8FDB-B9E3EB638691}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ImplimentForRepository", "ImplimentForRepository", "{A3F256C4-3FAA-4287-973A-149F088C78C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRepositoryServices", "IRepositoryServices\IRepositoryServices.csproj", "{E493CEE1-8C0C-4B6E-87E6-1B6D9BAD0132}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IRepositoryServices", "IRepositoryServices\IRepositoryServices.csproj", "{E493CEE1-8C0C-4B6E-87E6-1B6D9BAD0132}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryServises", "RepositoryServises\RepositoryServises.csproj", "{F10D9A2A-285E-4B44-9098-8407F0C3EBB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepositoryServises", "RepositoryServises\RepositoryServises.csproj", "{F10D9A2A-285E-4B44-9098-8407F0C3EBB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

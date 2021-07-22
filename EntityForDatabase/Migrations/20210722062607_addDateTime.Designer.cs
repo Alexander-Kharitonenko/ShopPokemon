@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace EntityForDatabase.Migrations
 {
-    [DbContext(typeof(DbContextShopPakemon))]
+    [DbContext(typeof(DbContextShopPokemon))]
     [Migration("20210722062607_addDateTime")]
     partial class addDateTime
     {
