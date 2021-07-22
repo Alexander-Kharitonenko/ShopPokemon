@@ -28,14 +28,14 @@ namespace ShopPakemon.Controllers
         [Authorize]
         public IActionResult AllUsersAndTheirOrders()
         {
-             List<UserDTO> UsersWithOrder = UserServices.User.Get().Select(el => Mapper.Map<UserDTO>(el)).ToList();
+            List<UserDTO> UsersWithOrder = UserServices.User.Get().Select(el => Mapper.Map<UserDTO>(el)).ToList();
 
             ViewModelForAllUser allUser = new ViewModelForAllUser() { AllUser = UsersWithOrder };
             return View(allUser);
         }
 
         [HttpGet]
-        public IActionResult AddOrder() 
+        public IActionResult AddOrder()
         {
             return View();
         }
@@ -91,7 +91,7 @@ namespace ShopPakemon.Controllers
             smtp.Credentials = new NetworkCredential($"{fromEmail}", $"{youPassword}");
             smtp.EnableSsl = true;
             await smtp.SendMailAsync(m);
-            
+
         }
     }
 }
