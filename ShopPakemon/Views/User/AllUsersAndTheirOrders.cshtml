@@ -1,0 +1,14 @@
+﻿@model ViewModelForAllUser
+<div>
+    @{
+
+        foreach (var el in Model.AllUser)
+        {
+            <h6>
+                    <span class="lenta_textsmall">
+                        @el.OrderTime @el.Name заказал покемона уже @el.NumberEmailSent раз
+                    </span>
+            </h6>
+        }
+    }
+</div>
